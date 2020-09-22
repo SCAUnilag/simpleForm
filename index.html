@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content=" Simple Survey Form ">
+    <meta name="description" content="A simple survey for hacktoberfest">
+    <title> Simple Survey Form </title>
+</head>
+<body>
+    
+<h2 style='color: #e82285 ; text-align: center;'>    Simple Survey Form </h2>
+ <center style=' border: 5px dotted #e82285; padding:10px;' >
+    <form action="https://www.w3schools.com/action_page.php">
+        <label> Firstname:  </label>
+        <input type="text" name="firstname"  placeholder="firstname " style='margin: 10px;'>
+        <br>
+        <label> Lastname: </label>
+        <input type="text" name="lastname" placeholder="lastname" style='margin: 10px;' >
+        <br>
+     <div style='margin: 10px;'>
+        <label> Gender</label>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+     </div>
+        <br>
+        <label> What level are you in open source </label>
+            <select name="Level">
+                <option value="Beginner">Beginner </option>
+                <option value="Intermediate">Intermediate </option>
+                <option value="Advanced"> Advanced </option>
+                <option value="Have no idea "> Have no idea </option>
+              </select> 
+            <br>
+              <div  style='margin: 10px;'>
+                <label> What do you know about open source</label>
+                <br>
+                <textarea name="message" rows="10" cols="30" style='margin: 10px;' >
+                    </textarea> 
+              </div>
+
+            <button type="button" onclick="alert('Thanks for participating ')" style='padding:10px 5px; border:none; background-color:#e82285; border-radius:5px;'> Submit </button> 
+      </form> 
+    </center>
+
+
+</body>
+</html>
